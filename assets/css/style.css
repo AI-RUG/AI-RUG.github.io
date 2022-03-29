@@ -1,12 +1,10 @@
 body{
     text-align:center;
     font-family:"Open Sans",sans-serif;
-    padding-left:10%;
-    padding-right:10%;
 }
 
 h3 {
-    margin-top:-10px;
+    margin-top:-5px;
     margin-bottom:-5px;
     color:#cc0001;
 }
@@ -17,12 +15,16 @@ a {
     border-radius: 20px;
     color:white;
     text-decoration: none; 
-    display: inline-block;
-    margin-bottom:40px;
+    display: block;
+    margin-bottom:60px;
+    margin-top:30px;
+    margin-left:35%;
+    margin-right:35%;
+    box-shadow: #7413134d 1px 2px 0px;
 }
 
 a:hover {
-    background:#741313; 
+    background:#741313;
 }
 
 .header {
@@ -30,15 +32,24 @@ a:hover {
     color:white;
     padding-left:10%;
     padding-right:10%;
-    padding-top:5%;
-    padding-bottom:5%;
-    margin-left:-10%;
-    margin-right:-10%;
+    padding-top:2%;
+    padding-bottom:2%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top:0px;
 }
 
 .header p {
     margin-top:-20px;
 }
+
+.content {
+    padding-left:10%;
+    padding-right:10%;
+    margin-top:190px;
+}
+
 
 .subtitle{
     margin-top:-15px;
@@ -47,3 +58,7 @@ a:hover {
     font-size: small;
 }
 
+#assignments {
+    padding-bottom:25px;
+    padding-top:30px;
+}
