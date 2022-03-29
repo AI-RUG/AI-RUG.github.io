@@ -9,7 +9,11 @@ h3 {
     color:#cc0001;
 }
 
-a {
+a{
+    color:#cc0001;
+}
+
+a.button {
     background:#cc0001;
     padding:10px;
     border-radius: 20px;
@@ -23,7 +27,7 @@ a {
     box-shadow: #7413134d 1px 2px 0px;
 }
 
-a:hover {
+a:hover.button {
     background:#741313;
 }
 
@@ -58,7 +62,16 @@ a:hover {
     font-size: small;
 }
 
+.ex {
+    font-style:italic;
+    margin-bottom:0px;
+}
+
 #assignments {
     padding-bottom:25px;
     padding-top:30px;
+}
+
+#programming-header {
+    font-size:25px;
 }
