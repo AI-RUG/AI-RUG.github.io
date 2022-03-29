@@ -1,8 +1,49 @@
----
----
-
-@import "{{ site.theme }}";
-
-.page-header {
-    background:black;
+body{
+    text-align:center;
+    font-family:"Open Sans",sans-serif;
+    padding-left:10%;
+    padding-right:10%;
 }
+
+h3 {
+    margin-top:-10px;
+    margin-bottom:-5px;
+    color:#cc0001;
+}
+
+a {
+    background:#cc0001;
+    padding:10px;
+    border-radius: 20px;
+    color:white;
+    text-decoration: none; 
+    display: inline-block;
+    margin-bottom:40px;
+}
+
+a:hover {
+    background:#741313; 
+}
+
+.header {
+    background:#cc0001;
+    color:white;
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:5%;
+    padding-bottom:5%;
+    margin-left:-10%;
+    margin-right:-10%;
+}
+
+.header p {
+    margin-top:-20px;
+}
+
+.subtitle{
+    margin-top:-15px;
+    color:grey;
+    font-style: italic;
+    font-size: small;
+}
+
