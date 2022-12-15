@@ -2,6 +2,8 @@ body{
     text-align:center;
     font-family:"Open Sans",sans-serif;
     font-size:18px;
+    min-height:100vh;
+    flex-direction:column;
 }
 
 h3 {
@@ -30,6 +32,23 @@ a.button {
 
 a:hover.button {
     background:#741313;
+}
+
+.footer {
+    margin-top: auto;
+    background-color:#D7D7D7;
+    position:absolute;
+    left:0px;
+    right:0px;
+}
+
+.footer p {
+    font-size:12px;
+    padding-bottom:15px;
+    padding-left:2%;
+    padding-right:2%;
+    color:#cc0001;
+    font-weight:600;
 }
 
 .header {
@@ -156,8 +175,8 @@ h2.title {
     min-width: 100px;
     background-color:#cc0001;
     border-radius: 10px;
-    padding:30px;
-    height:42vh;
+    padding:4%;
+    height:99%;
 }
 
 .assignments h3 {
